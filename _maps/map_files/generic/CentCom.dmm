@@ -506,7 +506,7 @@
 "jL" = (/obj/structure/closet/wardrobe/cargotech,/obj/effect/turf_decal/bot,/turf/open/floor/plasteel,/area/f13/underground/mountain)
 "jM" = (/obj/machinery/conveyor_switch/oneway{dir = 8; id = "XCCQMLoad"; pixel_x = 6},/turf/open/floor/plasteel/brown{dir = 8},/area/f13/underground/mountain)
 "jN" = (/obj/structure/closet/secure_closet/quartermaster,/obj/machinery/airalarm{dir = 8; pixel_x = 24},/obj/effect/turf_decal/bot,/turf/open/floor/plasteel,/area/f13/underground/mountain)
-"jO" = (/turf/closed/mineral/random/low_chance,/area/f13/brotherhood)
+"jO" = (/turf/closed/wall/f13/vault,/area/f13/brotherhood)
 "jP" = (/turf/open/floor/plasteel/brown{dir = 8},/area/f13/underground/mountain)
 "jQ" = (/turf/open/floor/plasteel/yellowsiding,/area/f13/underground/mountain)
 "jR" = (/obj/structure/flora/ausbushes/lavendergrass,/obj/structure/flora/ausbushes/sparsegrass,/obj/structure/flora/ausbushes/fullgrass,/obj/structure/flora/ausbushes/brflowers,/obj/structure/flora/ausbushes/genericbush,/obj/machinery/light,/turf/open/floor/grass,/area/tdome/tdomeobserve)
@@ -758,7 +758,7 @@
 "oR" = (/obj/machinery/door/airlock/centcom{name = "CentCom Security"; req_access_txt = "101"},/turf/open/floor/plasteel,/area/centcom/evac)
 "oS" = (/obj/structure/table/reinforced,/turf/open/floor/plasteel,/area/centcom/evac)
 "oT" = (/obj/item/twohanded/required/kirbyplants{icon_state = "plant-22"},/obj/structure/table/reinforced,/turf/open/floor/plasteel,/area/centcom/evac)
-"oU" = (/obj/docking_port/stationary/bos,/turf/closed/mineral/random/low_chance,/area/f13/brotherhood)
+"oU" = (/obj/docking_port/mobile/bos{dwidth = 1; name = "Broterhood_of_Steel"},/obj/machinery/door/airlock/hatch{req_access_txt = "120"},/turf/open/floor/plasteel/dark,/area/f13/brotherhood)
 "oV" = (/obj/machinery/vr_sleeper{dir = 4},/obj/machinery/light{dir = 8},/turf/open/floor/wood,/area/centcom/holding)
 "oW" = (/obj/item/toy/figure/syndie,/turf/open/floor/plating/f13/outside/desert,/area/syndicate_mothership)
 "oX" = (/obj/item/twohanded/required/kirbyplants{icon_state = "plant-05"; pixel_y = 10},/obj/structure/table/reinforced,/obj/machinery/light{dir = 1},/turf/open/floor/plasteel,/area/centcom/evac)
@@ -1716,6 +1716,7 @@
 "Lw" = (/obj/effect/spawner/structure/window/shuttle,/turf/open/floor/plating,/area/centcom/evac)
 "Lx" = (/obj/structure/bed,/obj/machinery/light{dir = 8},/turf/open/floor/mineral/titanium/blue,/area/centcom/evac)
 "Ly" = (/obj/machinery/door/airlock/titanium,/turf/open/floor/mineral/titanium/yellow,/area/centcom/evac)
+"Lz" = (/obj/structure/ladder/unbreakable{anchored = 1; height = 2; id = "NE"},/turf/open/floor/plasteel/dark,/area/f13/brotherhood)
 "LA" = (/obj/structure/table,/obj/structure/bedsheetbin,/turf/open/floor/mineral/titanium/blue,/area/centcom/evac)
 "LB" = (/obj/structure/table,/obj/item/hand_labeler,/obj/machinery/light,/turf/open/floor/mineral/titanium/blue,/area/centcom/evac)
 "LC" = (/obj/structure/table,/obj/item/storage/box/donkpockets,/turf/open/floor/mineral/titanium/blue,/area/centcom/evac)
@@ -1768,6 +1769,7 @@
 "NJ" = (/obj/structure/table,/obj/item/book/manual/hydroponics_pod_people,/obj/item/seeds/pumpkin/blumpkin,/turf/open/floor/plasteel/whitegreen,/area/centcom/holding)
 "NR" = (/obj/machinery/light{dir = 8},/turf/open/indestructible/ground/inside/subway,/area/f13/underground/mountain)
 "NT" = (/obj/structure/window/paperframe{CanAtmosPass = 0},/turf/open/floor/wood,/area/centcom/holding)
+"Of" = (/obj/machinery/light{dir = 8; light_color = "#e8eaff"},/obj/structure/ladder/unbreakable{height = 2; id = "SW"},/turf/open/floor/plasteel/dark,/area/f13/brotherhood)
 "Op" = (/obj/structure/sink{dir = 8; pixel_x = -12; pixel_y = 2},/obj/machinery/button/door{id = "lmrestroom"; name = "Lock Control"; pixel_y = -28},/turf/open/floor/plasteel/white,/area/centcom/holding)
 "OG" = (/obj/structure/dresser,/obj/machinery/light{dir = 1},/turf/open/floor/wood,/area/centcom/holding)
 "OU" = (/obj/item/clothing/under/jabroni,/obj/item/clothing/under/geisha,/obj/item/clothing/under/kilt,/obj/structure/closet,/turf/open/floor/wood,/area/centcom/holding)
@@ -1786,6 +1788,7 @@
 "PY" = (/turf/open/floor/plasteel/whitegreen,/area/centcom/holding)
 "Qe" = (/turf/open/ai_visible,/area/ai_multicam_room)
 "Qk" = (/obj/structure/flora/ausbushes/fullgrass,/obj/structure/flora/ausbushes/ppflowers,/obj/structure/flora/ausbushes/palebush,/obj/structure/window/reinforced/fulltile,/turf/open/floor/grass,/area/centcom/holding)
+"Ql" = (/obj/structure/ladder/unbreakable{height = 2; id = "NW"},/turf/open/floor/plasteel/dark,/area/f13/brotherhood)
 "Qm" = (/obj/singularity/wizard/mapped,/turf/open/indestructible/binary,/area/fabric_of_reality)
 "Qu" = (/obj/machinery/vr_sleeper{dir = 8},/obj/machinery/light{dir = 4},/turf/open/floor/wood,/area/centcom/holding)
 "QA" = (/obj/machinery/deepfryer,/turf/open/floor/plasteel/cafeteria,/area/centcom/holding)
@@ -1795,6 +1798,7 @@
 "QL" = (/obj/structure/flora/ausbushes/fernybush,/obj/structure/flora/ausbushes/ppflowers,/obj/structure/flora/ausbushes/palebush,/obj/structure/window/reinforced/fulltile,/turf/open/floor/grass,/area/centcom/holding)
 "QS" = (/turf/closed/indestructible/f13/matrix,/area/centcom/evac)
 "QT" = (/obj/machinery/chem_dispenser/drinks,/turf/closed/indestructible{icon = 'icons/turf/walls/wood_wall.dmi'; icon_state = "wood"; smooth = 1},/area/centcom/holding)
+"QU" = (/obj/structure/ladder/unbreakable{height = 2; id = "SE"},/turf/open/floor/plasteel/dark,/area/f13/brotherhood)
 "QW" = (/obj/structure/closet/secure_closet/freezer/kitchen{locked = 0},/turf/open/floor/plasteel/cafeteria,/area/centcom/holding)
 "Rd" = (/obj/machinery/light,/turf/open/floor/plasteel/whitegreen,/area/centcom/holding)
 "Re" = (/obj/structure/mineral_door/paperframe,/turf/open/floor/wood,/area/centcom/holding)
@@ -1855,6 +1859,7 @@
 "Tr" = (/obj/structure/closet/chefcloset,/turf/open/floor/plasteel/cafeteria,/area/centcom/holding)
 "Tu" = (/obj/structure/flora/ausbushes/fernybush,/obj/structure/flora/ausbushes/fullgrass,/obj/structure/flora/ausbushes/ppflowers,/obj/structure/flora/ausbushes/palebush,/obj/structure/window/reinforced/fulltile,/turf/open/floor/grass,/area/centcom/holding)
 "TB" = (/obj/structure/reagent_dispensers/cooking_oil,/turf/open/floor/plasteel/cafeteria,/area/centcom/holding)
+"TF" = (/turf/template_noop,/area/f13/brotherhood)
 "TK" = (/obj/structure/table/wood/bar,/obj/structure/mirror{pixel_y = 28},/turf/open/floor/wood,/area/centcom/holding)
 "Ud" = (/obj/effect/landmark/holding_facility,/turf/open/floor/wood,/area/centcom/holding)
 "Uh" = (/obj/machinery/light{dir = 4},/obj/structure/rack,/obj/item/nullrod/claymore/darkblade{damtype = "stamina"; force = 30},/turf/open/floor/wood,/area/centcom/holding)
@@ -1863,6 +1868,7 @@
 "UH" = (/obj/machinery/door/airlock/wood{req_one_access_txt = "28"},/turf/open/floor/wood,/area/centcom/holding)
 "UT" = (/obj/structure/chair/wood/wings{dir = 1},/turf/open/floor/wood,/area/centcom/holding)
 "UV" = (/obj/machinery/computer/arcade,/turf/open/floor/wood,/area/centcom/holding)
+"Vd" = (/obj/item/flag/bos,/turf/open/floor/plasteel/dark,/area/f13/brotherhood)
 "Vm" = (/obj/machinery/gibber,/obj/machinery/light{dir = 1},/turf/open/floor/plasteel/cafeteria,/area/centcom/holding)
 "Vu" = (/obj/structure/flora/ausbushes/fernybush,/obj/structure/flora/ausbushes/fullgrass,/obj/structure/flora/ausbushes/ppflowers,/obj/structure/flora/ausbushes/palebush,/obj/structure/window/reinforced/fulltile,/obj/machinery/light,/turf/open/floor/grass,/area/centcom/holding)
 "Vv" = (/obj/structure/table,/obj/machinery/reagentgrinder,/turf/open/floor/plasteel/cafeteria,/area/centcom/holding)
@@ -1876,6 +1882,7 @@
 "Wy" = (/obj/structure/rack,/obj/item/clothing/under/color/green,/obj/item/clothing/shoes/sneakers/brown,/obj/item/clothing/suit/armor/vest,/obj/item/clothing/head/helmet/swat,/obj/item/gun/energy/laser,/turf/open/floor/plasteel,/area/tdome/arena)
 "Xd" = (/obj/structure/flora/ausbushes/fernybush,/obj/structure/flora/ausbushes/fullgrass,/obj/structure/flora/ausbushes/palebush,/obj/structure/window/reinforced/fulltile,/turf/open/floor/grass,/area/centcom/holding)
 "Xe" = (/obj/machinery/vending/autodrobe,/turf/open/floor/wood,/area/centcom/holding)
+"Xh" = (/turf/open/floor/plasteel/dark,/area/f13/brotherhood)
 "Xk" = (/turf/open/floor/wood,/area/centcom/holding)
 "Xo" = (/obj/machinery/vending/dinnerware,/turf/open/floor/plasteel/cafeteria,/area/centcom/holding)
 "Xx" = (/obj/machinery/light{dir = 4},/turf/open/floor/wood,/area/centcom/holding)
@@ -1888,6 +1895,7 @@
 "Ym" = (/obj/machinery/computer/arcade/orion_trail,/turf/open/floor/wood,/area/centcom/holding)
 "Yo" = (/obj/machinery/light{dir = 8},/turf/open/floor/wood,/area/centcom/holding)
 "Yp" = (/obj/structure/flora/wasteplant/wild_broc,/turf/open/indestructible/ground/outside/desert,/area/f13/underground/mountain)
+"Yr" = (/obj/machinery/computer/shuttle/bos,/turf/open/floor/plasteel/dark,/area/f13/brotherhood)
 "Yu" = (/obj/structure/closet/secure_closet/freezer/fridge{locked = 0},/turf/open/floor/plasteel/cafeteria,/area/centcom/holding)
 "Yv" = (/obj/structure/flora/tree/joshua,/turf/open/indestructible/ground/outside/desert,/area/f13/underground/mountain)
 "Yw" = (/obj/structure/flora/tree/wasteland,/turf/open/indestructible/ground/outside/desert,/area/f13/underground/mountain)
@@ -2156,10 +2164,10 @@ hHhHhHhHhHhHhHhHhHhHhHhHhHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 hHhHhHhHhHhHhHhHhHhHhHhHhHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 hHhHhHhHhHhHhHhHhHhHhHhHhHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 hHjOjOjOjOjOjOjOjOjOhHhHhHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-hHoUjOjOjOjOjOjOjOjOhHhHhHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-hHjOjOjOjOjOjOjOjOjOhHhHhHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-hHhHhHjOjOjOjOjOjOjOhHhHhHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-hHhHhHjOjOjOjOjOjOjOhHhHhHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-hHhHhHjOjOjOjOjOjOjOhHhHhHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+hHoUXhXhXhXhXhXhVdjOhHhHhHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+hHjOjOjOXhXhXhXhXhjOhHhHhHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+hHTFTFjOQlXhLzXhXhjOhHhHhHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+hHTFTFjOOfXhQUXhYrjOhHhHhHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+hHTFTFjOjOjOjOjOjOjOhHhHhHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 hHhHhHhHhHhHhHhHhHhHhHhHhHaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 "}
